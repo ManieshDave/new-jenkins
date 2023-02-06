@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		node {
-			label 'ssh-node'
+			label 'ssh-node' 
 			customWorkspace "/server/git/"
 		}
 	}
