@@ -2,7 +2,7 @@ pipeline {
 	agent {
 		node {
 			label 'ssh-node'
-			customeWorkspace "/server/git/"
+			customWorkspace "/server/git/"
 		}
 	}
 	stages ('Automation') {
